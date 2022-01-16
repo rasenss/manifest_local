@@ -34,8 +34,7 @@
       <remove-project name="platform_vendor_nxp_opensource_hidlimpl" />
       <remove-project name="platform_packages_apps_Bluetooth" />
       <remove-project name="platform_frameworks_av" />
-      <remove-project name="platform_frameworks_base" />
- 
+      
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Arcana-12" /> 
         
@@ -50,7 +49,6 @@
          <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
          <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" revision="main" remote="pcj" /> 
          <project path="frameworks/av" name="platform_frameworks_av" remote="ras" revision="12.x" />
-         <project path="frameworks/base" name="platform_frameworks_base" remote="ras" revision="12.x" />
          
    
   <!-- Hals and Nfc Repo's -->
