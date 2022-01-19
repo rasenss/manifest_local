@@ -14,10 +14,6 @@
      <remote  name="pcj"
            fetch="https://gitlab.com/Panchajanya1999" />
      
-   <!-- Rmv -->
-       <remove-project name="platform/hardware/nxp/secure_element" />
-       <remove-project name="platform/hardware/nxp/nfc" />
-
    <!-- Needed Repo's -->
        <remove-project name="platform_frameworks_av" />
        <remove-project name="platform_frameworks_base" />
