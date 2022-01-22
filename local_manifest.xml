@@ -13,6 +13,10 @@
            fetch="https://github.com/kdrag0n" />
      <remote  name="pcj"
            fetch="https://gitlab.com/Panchajanya1999" />
+
+   <!-- Remove Repo's -->
+        <remove-project name="platform/hardware/nxp/nfc" />
+        <remove-project name="platform/hardware/nxp/secure_element" />
      
    <!-- Needed Repo's -->
        <remove-project name="platform_frameworks_av" />
