@@ -18,10 +18,7 @@
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
 
-      <!-- Needed Repo's -->
-       <remove-project name="platform_frameworks_av" />
-       <remove-project name="platform_frameworks_base" />
-
+      
      
   <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Arcana-12" /> 
@@ -33,10 +30,7 @@
   <!-- Kernel Trees -->
         <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="sapphire" />
 
-    <!-- Clang & MiuiCamera --> 
-        <project path="frameworks/av" name="platform_frameworks_av" remote="ras" revision="12.x" />
-        <project path="frameworks/base" name="platform_frameworks_base" remote="ras" revision="12.x" /> 
-
+ 
         
   <!-- Hals and Nfc Repo's -->
         <remove-project name="platform_hardware_qcom_display" />
