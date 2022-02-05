@@ -11,8 +11,8 @@
             fetch="https://github.com/ghostrider-reborn" />
      <remote name="proto" 
            fetch="https://github.com/kdrag0n" />
-     <remote  name="pcj"
-           fetch="https://gitlab.com/Panchajanya1999" />
+     <remote  name="dvc"
+           fetch="https://github.com/ProjectArcana-Devices" />
 
    <!-- Remove Repo's -->
         <remove-project name="platform/hardware/nxp/nfc" />
@@ -21,7 +21,7 @@
       
      
   <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Arcana-12" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="dvc" revision="12" /> 
         
       
   <!-- Vendor Trees -->
