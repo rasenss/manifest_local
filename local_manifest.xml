@@ -17,6 +17,10 @@
    <!-- Remove Repo's -->
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
+   
+   <!-- removed -->
+       <remove-project name="platform_frameworks_base" />
+       <remove-project name="platform_frameworks_av" />
 
      
   <!-- Device Trees -->
@@ -30,7 +34,11 @@
 
   <!-- Clang & MiuiCamera --> 
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
-           
+        
+  <!-- Fwb & Av -->
+        <project name="platform_frameworks_base" path="frameworks/base" remote="ras" revision="12.x" />
+        <project name="platform_frameworks_av" path="frameworks/av" remote="ras" revision="12.x" />   
+  
   <!-- Hals and Nfc Repo's -->
         <remove-project name="platform_hardware_qcom_display" />
         <remove-project name="platform_hardware_qcom_audio" />
