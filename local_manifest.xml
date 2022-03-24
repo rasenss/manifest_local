@@ -38,6 +38,9 @@
   <!-- Fwb & Av -->
         <project name="platform_frameworks_base" path="frameworks/base" remote="ras" revision="12.x" />
         <project name="platform_frameworks_av" path="frameworks/av" remote="ras" revision="12.x" />   
-
+         
+        <remove-project name="manifest" />
+        <project path="manifest" name="manifest" remote="ras" />
 </manifest> 
+
 
